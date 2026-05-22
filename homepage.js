@@ -5,6 +5,13 @@ menuBtn.onclick = () => {
   navbar.classList.toggle("active");
 };
 
+const menuBtn = document.getElementById("menu-btn");
+const navbar = document.getElementById("navbar");
+
+menuBtn.onclick = () => {
+  navbar.classList.toggle("active");
+};
+
 /* Close menu on link click */
 
 document.querySelectorAll(".navbar a").forEach(link => {
